@@ -11,7 +11,7 @@
         src:url("Fonts/f737d53f-f6ed-4f15-8fe7-925fb68a8851.eot?#iefix") format("eot")
     }
     @font-face{
-        font-family:"Avenir Next W01";
+        font-family:"AvenirNext";
         src:url("Fonts/f737d53f-f6ed-4f15-8fe7-925fb68a8851.eot?#iefix");
         src:url("Fonts/f737d53f-f6ed-4f15-8fe7-925fb68a8851.eot?#iefix") format("eot"),url("Fonts/7fb4cb78-601f-4bb2-995a-442252089573.woff2") format("woff2"),url("Fonts/19db35b6-b3e8-400b-ae62-a3d37cc9fa56.woff") format("woff"),url("Fonts/61860563-e9eb-40bd-844e-48e96af9d063.ttf") format("truetype"),url("Fonts/94f6e6be-004d-4b3a-8b0e-f07609dc1726.svg#94f6e6be-004d-4b3a-8b0e-f07609dc1726") format("svg");
 font-weight: 500;
@@ -22,7 +22,7 @@ font-style: normal;
         src:url("Fonts/8e7f81d1-94dd-47e6-94ce-9c278d5d1ecc.eot?#iefix") format("eot")
     }
     @font-face{
-        font-family:"Avenir Next W01";
+        font-family:"AvenirNext";
         src:url("Fonts/8e7f81d1-94dd-47e6-94ce-9c278d5d1ecc.eot?#iefix");
         src:url("Fonts/8e7f81d1-94dd-47e6-94ce-9c278d5d1ecc.eot?#iefix") format("eot"),url("Fonts/f31d487c-aab1-4ce0-8fb8-4bdfa26dd539.woff2") format("woff2"),url("Fonts/6b0725b6-26e5-4bcf-8174-4d4b4d4217b9.woff") format("woff"),url("Fonts/435f931d-7af1-4f3a-a084-3d7aed6cd568.ttf") format("truetype"),url("Fonts/962508db-d57e-4eb1-a483-28a105ee2b25.svg#962508db-d57e-4eb1-a483-28a105ee2b25") format("svg");
 font-weight: 500;
@@ -33,7 +33,7 @@ font-style: italic;
         src:url("Fonts/10236419-1766-4da0-9a4c-83b4fffea025.eot?#iefix") format("eot")
     }
     @font-face{
-        font-family:"Avenir Next W01";
+        font-family:"AvenirNext";
         src:url("Fonts/10236419-1766-4da0-9a4c-83b4fffea025.eot?#iefix");
         src:url("Fonts/10236419-1766-4da0-9a4c-83b4fffea025.eot?#iefix") format("eot"),url("Fonts/c1ecdeb5-a61a-4207-ae23-0441885ba32d.woff2") format("woff2"),url("Fonts/4a75c3b0-f2ef-402c-b54b-ed543933e9c5.woff") format("woff"),url("Fonts/bb18d7e3-286e-4825-bf91-7fbeaf607d05.ttf") format("truetype"),url("Fonts/9c91e8bb-b452-4e4f-b00c-dad5dadb10c6.svg#9c91e8bb-b452-4e4f-b00c-dad5dadb10c6") format("svg");
 font-weight: 600;
@@ -44,7 +44,7 @@ font-style: normal;
         src:url("Fonts/fe4d96a8-3161-4f0c-ac51-ed6a5df15918.eot?#iefix") format("eot")
     }
     @font-face{
-        font-family:"Avenir Next W01";
+        font-family:"AvenirNext";
         src:url("Fonts/fe4d96a8-3161-4f0c-ac51-ed6a5df15918.eot?#iefix");
         src:url("Fonts/fe4d96a8-3161-4f0c-ac51-ed6a5df15918.eot?#iefix") format("eot"),url("Fonts/d268cd4d-987c-468a-a9bb-685df57a3892.woff2") format("woff2"),url("Fonts/add96dac-4679-4981-9390-74fd5a5bf61f.woff") format("woff"),url("Fonts/60f1dfd0-eea9-448c-84a0-e4e8d5ba7516.ttf") format("truetype"),url("Fonts/f9659813-f8c7-4548-9117-b8e02fa26641.svg#f9659813-f8c7-4548-9117-b8e02fa26641") format("svg");
 font-weight: 700;
@@ -55,9 +55,373 @@ font-style: normal;
         src:url("Fonts/07690b8a-c348-4c53-8de3-59f7cfef9ee8.eot?#iefix") format("eot")
     }
     @font-face{
-        font-family:"Avenir Next W01";
+        font-family:"AvenirNext";
         src:url("Fonts/07690b8a-c348-4c53-8de3-59f7cfef9ee8.eot?#iefix");
         src:url("Fonts/07690b8a-c348-4c53-8de3-59f7cfef9ee8.eot?#iefix") format("eot"),url("Fonts/9f6106aa-36e0-4cfb-8cda-c3354eab2461.woff2") format("woff2"),url("Fonts/ff039068-be8b-415c-b1a9-24eedee1c3ab.woff") format("woff"),url("Fonts/cdd2cecb-bd0e-41e5-9ecd-ef60f52a35be.ttf") format("truetype"),url("Fonts/390c08bc-8d21-4af3-95a1-a73c21f189cd.svg#390c08bc-8d21-4af3-95a1-a73c21f189cd") format("svg");
 font-weight: 800;
 font-style: normal;
     }
+
+
+body{
+  font-family:AvenirNext, sans-serif;
+  font-weight:600;
+}
+
+h1{
+  font-weight:800;
+  text-transform:uppercase;
+  margin-top:0;
+}
+
+a{
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;
+}
+.btn-main{
+  color:#fff;
+  background-color:#00428c;
+  padding:5px 15px;
+  border-radius:4px;
+  font-weight:600;
+  text-transform:uppercase;
+  display:inline-block;
+}
+.btn-main:hover,
+.btn-main:focus{
+  background-color:#ee3224;
+  text-decoration:none;
+  color:#fff;
+}
+
+#header-nav{
+  padding-top:5px;
+  box-shadow:0px 3px 10px #666;
+  position:relative;
+  z-index:99;
+}
+.header-logo{
+  float:left;
+}
+.navbar-header .accredations{
+  float:left;
+  margin-top:30px;
+  margin-left:30px;
+}
+.navbar-header .accredations>li>img{
+  max-height:45px;
+}
+.navbar-nav>li>a{
+  color:#00428c;
+  text-transform:uppercase;
+  font-weight:800;
+}
+.navbar-nav>li.active>a,
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus{
+  background-color:transparent;
+  color:#ee3224;
+}
+.navbar-nav>li>.btn-main{
+  margin-top:10px;
+  background-color:#ee3224;
+  padding:5px 15px 3px;
+  color:#fff;
+  font-weight:600;
+}
+.navbar-nav>li>.btn-main:hover,
+.navbar-nav>li>.btn-main:focus{
+  background-color:#00428c;
+  color:#fff;
+}
+.navbar-nav .social{
+  text-align:center;
+  margin-top:5px;
+}
+.navbar-nav .social>a{
+  font-size:22px;
+  color:#00428c;
+}
+.navbar-nav .social>a+a{
+  margin-left:15px;
+}
+.navbar-nav .social>a:hover,
+.navbar-nav .social>a:focus{
+  color:#ee3224;
+}
+.navbar-toggle{
+  border-color:#00428c;
+}
+.navbar-toggle .icon-bar{
+  background-color:#00428c;
+}
+
+.banner{
+  box-shadow:0px 3px 10px #666;
+  position:relative;
+  z-index:9;
+  padding-top:15px;
+  padding-bottom:10px;
+}
+.banner .call{
+  float:left;
+  min-width:400px;
+  font-size:18px;
+}
+.banner .call p{
+  margin-bottom:0;
+  color:#00428c;
+  font-weight:600;
+  line-height:1.2em;
+}
+.banner .call p+p{
+  font-weight:800;
+}
+.banner .call p>span{
+  color:#ee3224;
+}
+.banner .seven{
+  float:right;
+}
+.banner p.phone-number>a{
+  font-size:36px;
+  font-weight:800;
+  color:#ee3224;
+  line-height:normal;
+}
+.banner p.phone-number>a:hover,
+.banner p.phone-number>a:focus{
+  color:#ee3224;
+  text-decoration:none;
+}
+.seven>p{
+  font-size:18px;
+  color:#00428c;
+  font-weight:700;
+  margin-bottom:0;
+  line-height:1.2em;
+  text-transform:uppercase;
+}
+.seven>p>span{
+  display:block;
+  font-size:24px;
+  color:#ee3224;
+  font-weight:800;
+}
+
+.hp-hero{
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+  padding-top:60px;
+  padding-bottom:150px;
+  padding-left:15px;
+  padding-right:15px;
+}
+.white-overlay{
+  position:absolute;
+  height:100%;
+  width:100%;
+  background-color:rgba(255,255,255,.5);
+  z-index:1;
+  top:0;
+  left:0;
+}
+.hp-hero img{
+  position:relative;
+  z-index:2;
+}
+.hp-hero .quick-links{
+  position:absolute;
+  z-index:3;
+  bottom:0;
+  background-color:#fff;
+  left:0;
+  right:0;
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+.hp-hero .quick-links:before{
+  content: "";
+  position: absolute;
+  border: 15px solid #fff;
+  height: 0px;
+  width: 0px;
+  top: -20px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 5px solid transparent;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hp-hero .quick-links a{
+  color:#ee3224;
+  text-transform:uppercase;
+  font-weight:800;
+  padding-top:45px;
+  display:block;
+  position:relative;
+}
+.hp-hero .quick-links a:before{
+  content:"";
+  position:absolute;
+  background-image:url(images/sprites.png);
+  background-repeat:no-repeat;
+  margin-left:auto;
+  margin-right:auto;
+  top:0;
+  left:0;
+  right:0;
+}
+.hp-hero .quick-links a.get-quote:before{
+  background-position:0px 0px;
+  height:38px;
+  width:38px;
+}
+.hp-hero .quick-links a.services:before{
+  background-position:-45px 0px;
+  height:34px;
+  width:30px;
+}
+.hp-hero .quick-links a.employment:before{
+  background-position:-81px 0px;
+  height:39px;
+  width:33px;
+}
+.hp-hero .quick-links .left-border{
+  border-left:1px solid #00428c;
+}
+
+#hp-services{
+  box-shadow:0px 3px 10px #666;
+  position:relative;
+  z-index:4;
+  padding-top:60px;
+  padding-bottom:60px;
+  text-align:center;
+}
+#hp-services>.container{
+  max-width:600px;
+}
+#hp-services h1{
+  color:#00428c;
+  padding-top:60px;
+  position:relative;
+}
+#hp-services h1:before{
+  content:"";
+  position:absolute;
+  height:40px;
+  width:34px;
+  background-image:url(images/sprites.png);
+  background-position:-123px 0px;
+  top:0;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+.service-icons>li{
+  padding-left:10px;
+  padding-right:10px;
+  margin-top:40px;
+}
+.service-icons>li>a{
+  color:#ee3224;
+  text-transform:uppercase;
+  font-weight:700;
+  display:block;
+  position:relative;
+  padding-top:50px;
+}
+.service-icons>li>a:before{
+  content:"";
+  position:absolute;
+  background-image:url(images/sprites.png);
+  top:0;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+.service-icons>li>a.water-heaters:before{
+  width:27px;
+  height:47px;
+  background-position:0px -44px;
+}
+.service-icons>li>a.water-filtration:before{
+  width:43px;
+  height:43px;
+  background-position:-31px -46px;
+}
+.service-icons>li>a.drain-cleaning:before{
+  width:50px;
+  height:41px;
+  background-position:-78px -47px;
+}
+.service-icons>li>a.sump-pumps:before{
+  width:47px;
+  height:27px;
+  background-position:-131px -52px;
+}
+#hp-services .btn-main{
+  margin-top:40px;
+}
+
+#hp-craftsmanship{
+  background-image:url(images/wet-drain.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:left center;
+}
+#hp-craftsmanship .text-side{
+  background-color:rgba(0,66,140,.5);
+  color:#fff;
+  padding-top:60px;
+  padding-bottom:60px;
+  text-align:right;
+}
+#hp-craftsmanship .text-side h1{
+  max-width:300px;
+  margin-right:0;
+  margin-left:auto;
+  color:rgba(255,255,255,.6);
+}
+#hp-craftsmanship .text-side p{
+  max-width:400px;
+  margin-right:0;
+  margin-left:auto;
+}
+#hp-craftsmanship .text-side .btn-main{
+  margin-top:40px;
+}
+
+
+@media (max-width:767px){
+  .header-logo{
+    padding-left:15px;
+  }
+  .navbar-nav>li>.btn-main{
+    display:inline-block;
+    margin-left:15px;
+  }
+  .navbar-nav .social{
+    text-align:left;
+    margin-left:15px;
+  }
+  .hp-hero .quick-links .row{
+    margin-left:0;
+    margin-right:0;
+  }
+}
+@media (min-width:992px) and (max-width:1199px){
+  .navbar-header .accredations{
+    float:none;
+  }
+}
