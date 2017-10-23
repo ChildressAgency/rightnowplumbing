@@ -81,6 +81,11 @@ h2{
   margin-top:0;
   color:#ee3224;
 }
+h3{
+  font-size:18px;
+  font-weight:600;
+  margin-top:0;
+}
 h1.page-title{
   text-align:center;
 }
@@ -724,6 +729,55 @@ footer p{
   text-decoration:underline;
 }
 
+#main section#duties{
+  padding-top:0;
+  padding-bottom:0;
+}
+#duties .image-side{
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#duties .text-side{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+#duties .text-side h2{
+  padding-left:40px;
+}
+.check-list{
+  list-style:none;
+}
+.check-list>li{
+  position:relative;
+  margin-bottom:15px;
+  color:#00428c;
+}
+.check-list>li:before{
+  content:"";
+  position:absolute;
+  height:14px;
+  width:14px;
+  background-image:url(images/sprites.png);
+  background-position:-164px 0px;
+  left:-24px;
+}
+.submit-resume-form{
+  max-width:300px;
+  margin-top:40px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#eoeStatement{
+  background-color:#00428c;
+}
+#eoeStatement h2{
+  color:#fff;
+}
+#eoeStatement p{
+  color:#fff;
+}
+
 
 @media (max-width:358px){
   .call{
@@ -745,6 +799,22 @@ footer p{
   .hp-hero .quick-links .row{
     margin-left:0;
     margin-right:0;
+  }
+}
+@media (min-width:768px){
+  .container-sm-height{
+    display:table;
+  }
+  .row-sm-height{
+    display:table-row;
+  }
+  .col-sm-height{
+    display:table-cell;
+    vertical-align:middle;
+    float:none;
+  }
+  #duties .container-fluid.container-sm-height{
+    padding-left:0;
   }
 }
 @media (min-width:992px) and (max-width:1199px){
