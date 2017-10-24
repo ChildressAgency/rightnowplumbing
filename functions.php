@@ -280,3 +280,9 @@ if(function_exists('acf_add_options_page')){
     'capability' => 'edit_posts',
     'redirect' => false
   ));
+}
+
+add_action('acf/init', 'rightnowplumbing_acf_init');
+function rightnowplumbing_acf_init(){
+	acf_update_setting('google_api_key', get_field('google_maps_api_key', 'option'));
+}
