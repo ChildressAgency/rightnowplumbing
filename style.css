@@ -798,9 +798,11 @@ footer p{
 }
 #featuredService1>.container-fluid{
   padding-left:0;
+  width:100%;
 }
 #featuredService2>.container-fluid{
   padding-right:0;
+  width:100%;
 }
 #featuredService1 .image-side,
 #featuredService2 .image-side{
