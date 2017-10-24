@@ -778,6 +778,59 @@ footer p{
   color:#fff;
 }
 
+.service-list{
+  margin-top:60px;
+}
+.service-list .media{
+  margin-top:25px;
+  color:#00428c;
+}
+.service-list h4.media-heading{
+  font-size:16px;
+  text-transform:uppercase;
+  font-weight:800;
+}
+
+#main section#featuredService1,
+#main section#featuredService2{
+  padding-top:0;
+  padding-bottom:0;
+}
+#featuredService1>.container-fluid{
+  padding-left:0;
+}
+#featuredService2>.container-fluid{
+  padding-right:0;
+}
+#featuredService1 .image-side,
+#featuredService2 .image-side{
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+#featuredService1 .text-side,
+#featuredService2 .text-side{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+#infoBar{
+  background-color:#00428c;
+  color:#fff;
+  text-align:center;
+}
+#infoBar>.container{
+  max-width:750px;
+}
+#infoBar p{
+  font-size:24px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+#infoBar h1{
+  font-size:48px;
+  color:#fff;
+}
+
 
 @media (max-width:358px){
   .call{
