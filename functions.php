@@ -41,18 +41,18 @@ function rightnowplumbing_scripts(){
     false
   );
 
-/*  wp_register_script(
+  wp_register_script(
     'rightnowplumbing-scripts', 
     get_template_directory_uri() . '/js/rightnowplumbing-scripts.js', 
     array('jquery'), 
     '', 
     true
-  ); */
+  ); 
   
   wp_enqueue_script('bootstrap-script');
   wp_enqueue_script('fontawesome');
   wp_enqueue_script('google-maps');
-  //wp_enqueue_script('rightnowplumbing-scripts');  
+  wp_enqueue_script('rightnowplumbing-scripts');  
 }
 
 add_action('wp_enqueue_scripts', 'rightnowplumbing_styles');
