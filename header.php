@@ -28,7 +28,7 @@
     </style>
   <![endif]-->
 </head>
-<body>
+<body <?php body_class(); ?>>
   <nav id="header-nav">
     <div class="container-fluid">
       <div class="navbar-header">
