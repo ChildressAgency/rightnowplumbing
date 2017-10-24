@@ -33,12 +33,27 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <a href="<?php echo home_url(); ?>" class="header-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-logo.jpg" class="img-responsive" alt="Right Now Plumbing Logo" /></a>
-        <ul class="list-unstyled list-inline hidden-xs accredations">
-          <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home-advisor-top-rated.jpg" class="img-responsive center-block" alt="" /></li>
-          <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/best-of-home-advisor.jpg" class="img-responsive center-block" alt="" /></li> 
-          <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screened-approved-home-advisor.jpg" class="img-responsive center-block" alt="" /></li>
-          <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bbb-logo.jpg" class="img-responsive center-block" alt="" /></li>
-        </ul>
+
+        <?php if(is_front_page()): ?>
+          <ul class="list-unstyled list-inline hidden-xs accredations">
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home-advisor-top-rated.jpg" class="img-responsive center-block" alt="" /></li>
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/best-of-home-advisor.jpg" class="img-responsive center-block" alt="" /></li> 
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/screened-approved-home-advisor.jpg" class="img-responsive center-block" alt="" /></li>
+            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bbb-logo.jpg" class="img-responsive center-block" alt="" /></li>
+          </ul>
+        <?php else: ?>
+          <ul class="list-unstyled list-inline hidden-xs">
+            <li>
+              <p>Need a Plumber?</p>
+              <p class="call-now">Call RIGHT<span>NOW</span></p>
+              <p><span><?php the_field('phone', 'option'); ?></span></p>
+            </li>
+            <li>
+              <p>7 Days A Week</p>
+              <p class="hours">7AM-7PM</p>
+            </li>
+          </ul>
+        <?php endif; ?>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="expanded" aria-control="navbar">
           <span class="sr-only">Toggle Navigation</span>
           <span class="icon-bar"></span>

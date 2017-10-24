@@ -280,6 +280,14 @@ if(function_exists('acf_add_options_page')){
     'capability' => 'edit_posts',
     'redirect' => false
   ));
+
+  acf_add_options_page(array(
+    'page_title' => 'Testimonials',
+    'menu_title' => 'Testimonials',
+    'menu_slug' => 'testimonials',
+    'capability' => 'edit_posts',
+    'redirect' => false
+  ));
 }
 
 add_action('acf/init', 'rightnowplumbing_acf_init');
