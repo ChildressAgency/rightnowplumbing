@@ -48,7 +48,7 @@
             </ul>
           <?php endif; ?>
 
-          <?php echo do_shortcode('[resume-form]'); ?>
+          <?php echo do_shortcode('[contact-form-7 id="8" title="Resume"]'); ?>
         </article>
       </div>
     </section>

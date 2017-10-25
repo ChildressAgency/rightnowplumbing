@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-  <div class="hp-hero" style="background-image:url(images/fixing-sink-drain.jpg); background-position:left center;">
+  <div class="hp-hero" style="background-image:url(<?php echo get_stylesheet_directory_uri(); ?>/images/fixing-sink-drain.jpg); background-position:left center;">
     <div class="container">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-icon-large.png" class="img-responsive center-block" alt="" />
       <div class="quick-links">
@@ -55,7 +55,7 @@
         <div class="col-sm-6 text-side">
           <h1>Guaranteed Craftsmanship.</h1>
           <?php the_field('craftsmanship_section_content'); ?>
-          <a href="<?php the_field('about'); ?>" class="btn-main">Read More</a>
+          <a href="<?php echo home_url('about'); ?>" class="btn-main">Read More</a>
         </div>
         <div class="col-sm-6">
 
@@ -67,7 +67,7 @@
   <?php if(have_rows('testimonials', 'option')):
     $rows = get_field('testimonials', 'option');
     $row_count = count($rows);
-    $new_row_number = ($row_count / 2) - 1;
+    $new_row_number = ($row_count / 2);
     $i = 0; ?>
     <section id="hp-testimonials">
       <div class="container">
@@ -75,7 +75,7 @@
         <div class="row">
           <div class="col-sm-6">
             <?php while(have_rows('testimonials', 'option')): the_row();
-              if($i == $new_row_number){ echo '</div><div class="col-sm-6"'; } 
+              if($i == $new_row_number){ echo '</div><div class="col-sm-6">'; } 
 
               if(get_sub_field('row_layout') == 'image'): ?>
                 <img src="<?php the_sub_field('image'); ?>" class="full-width" alt="" />

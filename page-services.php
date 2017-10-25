@@ -50,7 +50,7 @@
         </div>
       </section>
     <?php endif; ?>
-    <?php if(get_field('featured_image_2')): ?>
+    <?php if(get_field('featured_service_2')): ?>
       <section id="featuredService2">
         <div class="container-fluid container-sm-height">
           <div class="row row-sm-height">

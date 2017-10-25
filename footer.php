@@ -8,12 +8,8 @@
               <h1>Contact Us</h1>
               <h2><?php the_field('phone', 'option'); ?></h2>
               <div class="map">
-                <?php
-                  $location = get_field('location', 'option');
-                  if(!empty($location)): ?>
-                    <div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
-                <?php endif; ?>
-                <div class="map-info">
+                <?php the_field('location', 'option'); ?>
+                <div id="mapInfo" class="map-info">
                   <p><?php the_field('address', 'option'); ?><br /><?php the_field('city_state_zip', 'option'); ?></p>
                   <p><span>24-Hour Service</span><br />Sunday Emergency Service Only</p>
                   <p><?php the_field('email', 'option'); ?></p>
@@ -22,7 +18,7 @@
             </div>
           </div>
           <div class="col-sm-6">
-            <?php echo do_shortcode('[contact-form]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); ?>
           </div>
         </div>
       <?php endif; ?>
@@ -72,7 +68,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-2">
-          <a href="<?php echo home_url(); ?>" class="footer-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>?images/logo-white.png" class="img-responsive center-block" alt="" /></a>
+          <a href="<?php echo home_url(); ?>" class="footer-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-white.png" class="img-responsive center-block" alt="" /></a>
         </div>
         <div class="col-sm-5">
           <ul id="footer-nav" class="list-unstyled list-inline">
@@ -90,7 +86,7 @@
               <p><strong>ADDRESS</strong><br /><?php the_field('address', 'option'); ?><br /><?php the_field('city_state_zip', 'option'); ?></p>
             </div>
             <div class="col-sm-4">
-              <p><strong>PHONE</strong><br /><?php the_field('phone'); ?></p>
+              <p><strong>PHONE</strong><br /><?php the_field('phone', 'option'); ?></p>
             </div>
             <div class="col-sm-4">
               <p><strong>24-HOUR SERVICE</strong><br />Sunday Emergency Service Only</p>

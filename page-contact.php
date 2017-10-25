@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <div class="hero" style="background-image:url(images/pipes-with-overlay.jpg);">
+  <div class="hero" style="background-image:url(<?php echo get_stylesheet_directory_uri(); ?>/images/pipes-with-overlay.jpg);">
     <div class="container">
       <h2>Need a Plumber Right Now?<span><?php the_field('phone', 'option'); ?></span></h2>
     </div>
@@ -26,11 +26,7 @@
           </div>
           <div class="col-sm-7">
             <div class="map">
-              <?php
-                $location = get_field('location', 'option');
-                if(!empty($location)): ?>
-                  <div class="marker" data-lat="<?php echo $location['lat']; ?>" data-lng="<?php echo $location['lng']; ?>"></div>
-              <?php endif; ?>
+              <?php the_field('location', 'option'); ?>
             </div>
           </div>
         </div>
@@ -39,7 +35,7 @@
     <section class="content">
       <div class="container">
         <h1 class="page-title">Get A Quote</h1>
-        <?php echo do_shortcode('[contact-form]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]'); ?>
       </div>
     </section>
   </main>

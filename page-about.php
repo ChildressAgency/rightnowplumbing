@@ -6,7 +6,7 @@
     <?php if(have_posts()): while(have_posts()): the_post(); ?>
       <section class="content">
         <div class="container">
-          <h1 class="page-title"><?php the_title(); ?></h1>
+          <h1 class="page-title">About Us</h1>
           <article>
             <?php the_content(); ?>
           </article>

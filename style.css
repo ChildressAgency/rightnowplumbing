@@ -585,10 +585,12 @@ a{
 .map{
   position:relative;
 }
-.map img,
-.map iframe{
+.map img{
   width:100%;
   height:auto;
+}
+.map iframe{
+  width:100%;
 }
 .map-info{
   position:absolute;
@@ -599,6 +601,7 @@ a{
   border-top-right-radius:16px;
   border-bottom-right-radius:16px;
   border-bottom-left-radius:16px;
+  cursor:move;
 }
 #contact .contact-info .map .map-info>p{
   color:#fff;
@@ -879,5 +882,8 @@ footer p{
 @media (min-width:992px) and (max-width:1199px){
   .navbar-header .accredations{
     float:none;
+  }
+  .navbar-header>ul>li+li{
+    margin-left:0;
   }
 }
