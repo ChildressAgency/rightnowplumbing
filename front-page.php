@@ -1,9 +1,9 @@
 <?php get_header(); ?>
   <div class="banner">
     <div class="container-fluid">
-      <div class="seven">
+      <!--<div class="seven">
         <p>7 Days A Week<span>7AM-7PM</span></p>
-      </div>
+      </div>-->
       <div class="call">
         <div class="row">
           <div class="col-sm-5">

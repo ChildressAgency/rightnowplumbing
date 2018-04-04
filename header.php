@@ -53,10 +53,10 @@
               <p class="call-now">Call RIGHT<span>NOW</span></p>
               <p><span><?php the_field('phone', 'option'); ?></span></p>
             </li>
-            <li>
+            <!--<li>
               <p>7 Days A Week</p>
               <p class="hours">7AM-7PM</p>
-            </li>
+            </li>-->
             <li>
               <a href="https://www.gethearth.com/partners/rightnow-ind-llc?utm_source=contractor&utm_medium=contractor-website&utm_campaign=791&utm_term=150_150&utm_content=general" target="_top">
                 <img src="https://www.gethearth.com/contractor_images/rightnow-ind-llc/general/150x150/hearth.png" alt="hearth-roofing-150x150/hearth.png" style="max-height:70px;" />
