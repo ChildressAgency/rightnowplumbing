@@ -53,12 +53,21 @@
     </div>
   </section>
   <div class="cc-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
+    <div class="container container-sm-height">
+      <div class="row row-sm-height">
+        <div class="col-sm-4 col-md-3 col-sm-height">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/credit-cards.jpg" class="img-responsive center-block" alt="" />
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-2 col-sm-height">
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.gethearth.com/partners/rightnow-ind-llc?utm_source=contractor&utm_medium=contractor-website&utm_campaign=791&utm_term=150_150&utm_content=general" target="_top">
+                <img src="https://www.gethearth.com/contractor_images/rightnow-ind-llc/general/150x150/hearth.png" alt="hearth-roofing-150x150/hearth.png" style="max-height:70px;" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-7 col-sm-height">
           <p>Service Areas Include: <?php the_field('service_areas', 'option'); ?></p>
         </div>
       </div>
